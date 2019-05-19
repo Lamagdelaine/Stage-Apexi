@@ -1,0 +1,9 @@
+INDEX VERSION 1.130+D:\laragon\www\Test\.metadata\.plugins\org.eclipse.jdt.core
+449384428.index
+1763132477.index
+246497150.index
+3921884201.index
+1647842742.index
+3271193799.index
+518828935.index
+2526324090.index

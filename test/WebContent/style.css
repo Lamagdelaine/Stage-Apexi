@@ -1,0 +1,283 @@
+/*_______________________________________________*
+					GENERAL					
+ *_______________________________________________*/
+html {
+	font-family: sans-serif;
+	background-color: #596f50;
+}
+body {
+	max-width: 960px;
+	margin: auto;
+	background-color: #e3c69f;
+}
+header,
+footer {
+	background-color: #6A8093;
+	height: 100px;
+    display: inline-block;
+    width: 100%;
+}
+/*	BOUTONS NAV	*/
+nav button {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/*	LISTE	*/
+ul {
+	list-style: none;
+}
+ul li {
+}
+/*	TABLE	*/
+table {
+	border-collapse: collapse;
+}
+table > thead > tr > th {
+	padding: 5px 0;
+}
+/*	FORMULAIRE	*/
+form fieldset {
+	padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+form fieldset legend {
+	margin: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+form fieldset p {
+	padding-left: 10px;
+    padding-right: 10px;
+    clear: both;
+    margin: 0;
+}
+form fieldset > p {
+	font-style: italic;
+    margin: 30px 10px;
+}
+form fieldset p:last-child {
+	margin: 0;
+}
+form fieldset ul li {
+}
+form fieldset ul li span.message {
+	display: inline-block;
+    clear: both;
+}
+form fieldset ul li span.error {
+    padding: 0 30px;
+    color: red;
+	float: left;
+	width: 100%;
+}
+form fieldset label,
+form fieldset input {
+}
+form fieldset label {
+	display: inline-block;
+    max-width: 310px;
+}
+form fieldset input {
+	float: right;
+}
+/*_______________________________________________*
+					EN-TÊTE					
+ *_______________________________________________*/
+header {
+}
+#logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#logo img {
+	height: 6em;
+}
+/*	CENTRAL	*/
+#headerMain {
+    float: left;
+    margin-left: 40px;
+}
+/*	MENU	*/
+#connectMenu {
+	float: right;
+	height: 100%;
+	display: table;
+}
+#connectMenu ul {
+	height: 100%;
+    margin: 0;
+	display: table;
+}
+#connectMenu ul li {
+	display: table-row;
+}
+#connectMenu ul li a {
+	display: table-cell;
+	}
+#connectMenu button {
+	width: 150px;
+    height: 100%;
+}
+/*_______________________________________________*
+				MENU PRINCIPAL					
+ *_______________________________________________*/
+#mainMenu {
+	display: table;
+	height: 50px;
+	width: 100%;
+}
+#myTopNav {
+	display: table-row;
+	height: 100%;
+	padding: 0;
+}
+#myTopNav li {
+	display: table-cell;
+}
+#myTopNav li button {
+	width: 100%;
+	height: 100%;
+}
+nav .icon {
+	display: none;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	position: absolute;
+	color: #fff;
+	top: 0;
+	right: 0;
+}
+/*_______________________________________________*
+				CONTENU PRINCIPAL					
+ *_______________________________________________*/
+#main {
+    padding: 15px 0;
+    background-color: #FFF7EC;
+    margin: 20px 20px;
+}
+/*	PAGE DE TABLEAU	*/
+#main > table {
+	width: 75%;
+	margin: auto;
+}
+#main > table > caption {
+	margin: 10px auto;
+}
+#main > table > thead {
+	background-color: #6F7051;
+	color: #fff;
+}
+#main > table > tbody tr:nth-child(even) {
+	background-color: #97BD88;
+}
+#main > table > tbody tr:nth-child(odd) {
+	background-color: #BABD88;
+}
+#main > table > thead th,
+#main > table > tbody td {
+	border: 1px solid #6F7051;
+}
+#main > table > tbody td {
+	padding: 0 10px;
+}
+#main > table > tbody td button {
+	width: 100%;
+}
+/*	PAGE DE FORMULAIRE	*/
+#main > form {
+	width: 75%;
+	margin: auto;
+}
+#main > form > fieldset > ul {
+	padding-right: 40px;
+}
+#main > form > fieldset > ul > li {
+	padding-bottom: 5px;
+}
+#main > form > fieldset > ul > li:last-child {
+	text-align: center;
+	padding-top: 10px;
+}
+/*_______________________________________________*
+				RESPONSIVE DESIGN					
+ *_______________________________________________*/
+@media only screen and (max-width: 600px) {
+	#logo {
+	    margin-right: 10px;
+	}
+	#headerMain {
+	    float: none;
+	}
+	h1 {
+		font-size: 1.2em;
+	}
+	#connectMenu {
+	    float: none;
+	    width: 100%;
+	    display: block;
+	    height: auto;
+	}
+	#connectMenu ul {
+	    width: 100%;
+	    padding: 0;
+	}
+	#connectMenu ul li {
+	    display: table-cell;
+	}
+	#connectMenu ul li a {
+	    display: block;
+	}
+	#connectMenu button {
+	    width: 100%;
+	}
+	#mainMenu {
+	    height: 30px;
+	}
+	#myTopNav {
+		display: none;
+		margin: 0;
+	}
+	nav a.icon {
+		float: right;
+		display: block;
+		font-size: 20px;
+		top: 50px;
+	}
+	#myTopNav.topnav.responsive {
+		position: relative;
+		display: block;
+	}
+	#myTopNav.topnav.responsive > li {
+		display: block;
+		background-color: #968369;
+	    height: 50px;
+	}
+	nav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		font-size: 50px;
+		text-align: center;
+	}	
+	#main {
+		margin: 10px 10px;
+	}
+	#main > form {
+	    width: 95%;
+	}
+	#main > form > fieldset > ul > li {
+	    display: inline-block;
+	}
+	#main > form > fieldset > ul > li:last-child {
+	    display: block;
+	}
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\laragon\www\Test\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2526324090.index
+449384428.index
+3271193799.index
+1763132477.index
+1647842742.index
+518828935.index
